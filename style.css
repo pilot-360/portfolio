@@ -93,6 +93,14 @@ main{
   margin: 20px auto;
   padding: 10px;
 }
+main .fa{
+  font-size: 3em;
+  text-align: center;
+}
+
+.col-sm-4{
+  text-align: center;
+}
 
 /*Heading Fonts*/
 h1{
