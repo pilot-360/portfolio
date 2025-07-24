@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Georama:wght@100..900&display=swap');
+/*website font*/
+body{
+	font-family: "Geologica", sans-serif;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+}
+/* Website Links except the nav */
+a{
+  text-decoration: none;
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+/*navigation*/
+nav{
+  background-color: skyblue;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a:link{
+  color: purple;
+}
+nav a:visited{
+  color: purple;
+}
+nav a:hover{
+  color:orange;
+}
+nav a:active{
+  color:red;
+}
+/*home-hero image*/
+.home-hero{
+  background-image: url(images/miguel-angel-padrinan-alba-unsplash.jpg);
+  background-size: cover;
+}
+.home-hero h1{
+  font-family: "Geologica", sans-serif;
+  color: black;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px white;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+/*profile photo*/
+#profile-photo{
+  float: left;
+  max-width: 90%;
+  height: auto;
+  margin: 50px 50px 10px 20px;
+}
+
+.logo{
+  max-width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+.logo:hover{
+  opacity: 80%;
+}
+
+/*Main*/
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+main .fa{
+  font-size: 3em;
+  text-align: center;
+}
+
+.col-sm-4{
+  text-align: center;
+}
+
+/*Heading Fonts*/
+h1{
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+h2{
+  border-bottom: 2px solid black;
+  display: flex;
+  padding: 5px;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+/*Gallery*/
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+/*Footer*/
+footer{
+  clear: both;
+  border-top: black 3px solid;
+  text-align: left;
+  background-image: url(images/joshua-chehov-unsplash.jpg);
+  background-size: cover;
+  color: white;
+}
+footer a:link{
+  color: white;
+}
+footer a:visited{
+  color: white;
+}
+footer a:hover{
+  color: blue;
+}
+footer a:active{
+  color: black;
+}
+footer ul{
+  list-style-type: none;
+}
+.footer1000{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
